@@ -1,0 +1,35 @@
+{
+  "name": "metalsmith-docs-example",
+  "version": "1.0.0",
+  "description": "A sample of a Metalsmith based documentation website",
+  "repository":"",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "www": "node ./scripts/www.js",
+    "debug-www": "node --debug-brk=5858 ./scripts/www.js",
+    "deploy": "node ./scripts/deploy.js",
+    "bower": "bower install"
+  },
+  "author": "Greg Leeds",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.7.10",
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-discover-partials": "^0.1.0",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-paths": "^2.1.2",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-register-helpers": "^0.1.2",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-static": "0.0.5",
+    "metalsmith-watch": "^1.0.1",
+    "s3": "^4.4.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

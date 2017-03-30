@@ -1,0 +1,7 @@
+.DS_Store
+
+/build
+/node_modules
+/.vscode
+npm-debug.log
+/public/components

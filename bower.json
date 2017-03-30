@@ -1,0 +1,21 @@
+{
+  "name": "metalsmith-docs-example",
+  "description": "A sample of a Metalsmith based documentation website",
+  "main": "index.js",
+  "authors": [
+    "Greg Leeds <gleeds@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "gregleeds.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap":"3.3.6"
+  }
+}

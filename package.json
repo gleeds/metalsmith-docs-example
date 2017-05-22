@@ -2,7 +2,7 @@
   "name": "metalsmith-docs-example",
   "version": "1.0.0",
   "description": "A sample of a Metalsmith based documentation website",
-  "repository":"",
+  "repository":"https://github.com/gleeds/metalsmith-docs-example",
   "main": "scripts/build.js",
   "scripts": {
     "build": "node ./scripts/build.js",

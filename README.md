@@ -1,3 +1,7 @@
+Introduction
+============
+Check out [this blog post](https://gregleeds.com/building-a-static-documentation-site-with-metalsmith/) for more details.
+
 Setup Requirements
 ==================
 Everything should install with `npm install` and then `npm run bower`

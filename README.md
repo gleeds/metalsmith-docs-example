@@ -54,4 +54,4 @@ link for the update page in the TOC get's duplicated on the update page,
 and every subsequent entry creates another entry. It has something to 
 do with this issue: 
 https://github.com/segmentio/metalsmith-collections/issues/27
-
+ 
